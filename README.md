@@ -10,11 +10,11 @@
   vagrant up
   ```
 
-  3. Go to http://govcms.ddns.me/
+  3. Run ```drush @govcms.local uli``` or go to http://govcms.ddns.me/
 
   ```
-  username: vagrant
-  password: vagrant
+  username: admin
+  password: password
   ```
 
   4. Enjoy.
