@@ -11,4 +11,10 @@ Vagrant.configure(2) do |config|
     config.vm.box = vconfig['vagrant_box']
   end
 
+  # Upload behat.local.yml
+  config.vm.provision "behat_settings", type: "file" do |s|
+   s.source = "./vagrant-includes/behat.local.yml"
+   s.destination = "/drupal/build/tests/behat/behat.local.yml"
+  end
+
 end

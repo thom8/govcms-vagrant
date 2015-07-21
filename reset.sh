@@ -1,4 +1,4 @@
 #!/bin/bash
 
-vagrant ssh -c "sudo rm -rf ~/vagrantup ~/siteinstalled"
+vagrant ssh -c "sudo rm -rf ~/siteinstalled"
 vagrant provision
