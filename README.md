@@ -1,6 +1,6 @@
 # govCMS Vagrant Box
 
-  1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) & [Vagrant](https://www.vagrantup.com/downloads.html)
+  1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) & [Vagrant 1.7.2](http://www.vagrantup.com/download-archive/v1.7.2.html)
 
   2. Open terminal (or [git bash](https://msysgit.github.io/) for windows users) and run the following commands --
 
