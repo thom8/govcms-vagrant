@@ -35,8 +35,7 @@
       git: >
         repo={{govcms_repo}}
         dest=/drupal
-        version=master
-        update=yes
+        force=yes
 
   roles:
     - { role: geerlingguy.firewall, tags: ['firewall'] }

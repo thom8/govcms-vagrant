@@ -86,9 +86,6 @@ php_xdebug_default_enable: 0
 
 mysql_root_password: ""
 mysql_databases:
-  - name: govcms
-    encoding: utf8
-    collation: utf8_general_ci
   - name: travis_ci_govcms_drupal
     encoding: utf8
     collation: utf8_general_ci
