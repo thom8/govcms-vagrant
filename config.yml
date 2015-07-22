@@ -36,8 +36,8 @@ govcms_repo: "https://github.com/govCMS/govCMS.git"
 # Drush site install
 drush_site_install: yes
 drupal_site_name: "GovCMS Demo"
-drupal_user: "vagrant"
-drupal_password: "vagrant"
+drupal_user: "admin"
+drupal_password: "password"
 
 # Drush alias
 create_drush_alias: yes
