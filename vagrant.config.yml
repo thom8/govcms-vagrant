@@ -1,0 +1,27 @@
+---
+# Vagrant config.
+vagrant_ip: 192.168.4.4
+vagrant_memory: 1024
+vagrant_cpus: 2
+
+# Drupal settings
+drupal_domain: "govcms.local"
+drupal_core_path: "/drupal/docroot"
+drupal_site_name: "govCMS"
+drupal_install_profile: govcms
+drupal_enable_modules: []
+drupal_account_name: admin
+drupal_account_pass: password
+drush_makefile_path: /drupal/build-govcms.make
+build_makefile: true
+install_site: true
+
+# Apache config
+apache_vhosts:
+  - {servername: "{{ drupal_domain }}", documentroot: "{{ drupal_core_path }}"}
+
+# Symlinks
+symlinks:
+  - src: /drupal/themes
+    link: /drupal/docroot/sites/all/themes
+    force: yes
